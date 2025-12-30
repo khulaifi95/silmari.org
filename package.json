@@ -47,7 +47,8 @@
     "satori": "^0.18.3",
     "sharp": "^0.34.5",
     "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vibe-kanban-web-companion": "^0.0.5"
   },
   "overrides": {
     "esbuild": "^0.25.5",
