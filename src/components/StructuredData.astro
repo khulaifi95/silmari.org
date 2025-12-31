@@ -16,24 +16,24 @@ if (type === "BlogPosting") {
     description: data.description,
     author: {
       "@type": "Person",
-      name: data.author || "Peter Steinberger",
-      url: "https://steipete.me/about",
+      name: data.author || "Zhangda Xu",
+      url: "https://silmari.org/about",
     },
     datePublished: data.pubDatetime.toISOString(),
     dateModified: data.modDatetime?.toISOString() || data.pubDatetime.toISOString(),
     publisher: {
       "@type": "Person",
-      name: "Peter Steinberger",
+      name: "Zhangda Xu",
       logo: {
         "@type": "ImageObject",
-        url: "https://steipete.me/peter-avatar.jpg",
+        url: "https://silmari.org/peter-avatar.jpg",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": data.url,
     },
-    image: data.ogImage || "https://steipete.me/peter-avatar.jpg",
+    image: data.ogImage || "https://silmari.org/peter-avatar.jpg",
     articleSection: data.tags?.[0] || "Technology",
     keywords: data.tags?.join(", ") || "",
     wordCount: data.wordCount,
@@ -43,33 +43,33 @@ if (type === "BlogPosting") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Peter Steinberger",
-    url: "https://steipete.me",
-    image: "https://steipete.me/peter-avatar.jpg",
+    name: "Zhangda Xu",
+    url: "https://silmari.org",
+    image: "https://silmari.org/peter-avatar.jpg",
     sameAs: [
-      "https://github.com/steipete",
-      "https://twitter.com/steipete",
-      "https://bsky.app/profile/steipete.me",
+      "https://github.com/khulaifi95",
+      "https://x.com/KhuLaiFiXu95",
+      "https://www.linkedin.com/in/zhangdaxu/",
     ],
-    jobTitle: "Software Engineer",
+    jobTitle: "AI Practitioner",
     description:
-      "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
+      "My learning path as an AI practitioner. Every commit lands on GitHub for you to fork & remix.",
   };
 } else if (type === "WebSite") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Peter Steinberger",
-    url: "https://steipete.me",
+    name: "Zhangda Xu",
+    url: "https://silmari.org",
     description:
-      "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
+      "My learning path as an AI practitioner. Every commit lands on GitHub for you to fork & remix.",
     author: {
       "@type": "Person",
-      name: "Peter Steinberger",
+      name: "Zhangda Xu",
     },
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://steipete.me/search?q={search_term_string}",
+      target: "https://silmari.org/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
