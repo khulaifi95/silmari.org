@@ -7,17 +7,22 @@ featured: true
 draft: false
 ---
 
-## Welcome!
+Hello this is my first post here, which happens to be a short wrap-up of this year's progress in AI.
 
-This is my first post. I'm documenting my learning journey as an AI practitioner.
+## Progress
 
-More content coming soon as I explore and build with AI technologies.
+1. GRPO + RLVR
+2. Inference scaling
+3. Coding agents with tools
 
-## What to Expect
+## Problems
 
-- AI experimentation and projects
-- Learning notes and insights
-- Open source tools and contributions
-- Technical deep dives
+1. Benchamrk and real-world discrepancy
+2. Vibe coding burnout and fatigue
+3. Model architecture kind of stuck
 
-Stay tuned!
+## Predictions
+
+1. Efficient deployment of memory system for open-sourced LLMs
+2. Unified multi-modal encoding in LLMs
+3. First real "Cursor for X" product
