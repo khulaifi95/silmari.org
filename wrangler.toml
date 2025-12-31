@@ -4,13 +4,3 @@
 name = "silmari-org"
 compatibility_date = "2025-01-01"
 pages_build_output_dir = "dist"
-
-[build]
-command = "npm run build"
-
-# Environment-specific settings
-[env.production]
-# Production environment uses default settings
-
-[env.preview]
-# Preview deployments for PRs
