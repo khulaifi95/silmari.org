@@ -1,0 +1,20 @@
+# Cloudflare Pages Redirects Configuration
+# https://developers.cloudflare.com/pages/configuration/redirects/
+# Format: source destination [status]
+
+# Old date-based URLs to /posts/:slug
+/:year/:month/:day/:slug /posts/:slug 301
+/blog/:year/:month/:day/:slug /posts/:slug 301
+/20:year/:month/:day/:slug /posts/:slug 301
+
+# Blog to posts redirects
+/blog/:slug /posts/:slug 301
+
+# Categories to tags
+/categories/:category /tags/:category 301
+/tag/:tag /tags/:tag 301
+
+# Specific post redirects for renamed content
+/blog/a-new-beginning/ /posts/finding-my-spark-again 301
+/posts/llm-codes-transform-developer-docs /posts/2025/llm-codes-transform-developer-docs 301
+/posts/understanding-codebases-with-ai-gemini-workflow /posts/2025/understanding-codebases-with-ai-gemini-workflow 301
